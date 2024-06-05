@@ -68,7 +68,7 @@ body {
 }
 
 .gallery-item:hover  {
-    background-color: #554e4ecd;
+   filter: brightness(40%);
 }
 
 .gallery-item:hover .button {
