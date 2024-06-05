@@ -8,7 +8,7 @@
 </head>
 <body>
     <div class="gallery">
-        <div class="gallery-item" data-country="India"  style="background-image: url('https://www.endangeredwolfcenter.org/wp-content/uploads/2021/11/FennecFox-2-1.jpg'); opacity: 80%;">
+        <div class="gallery-item" data-country="India" image-fullsize="https://www.endangeredwolfcenter.org/wp-content/uploads/2021/11/FennecFox-2-1.jpg"  style="background-image: url('https://www.endangeredwolfcenter.org/wp-content/uploads/2021/11/FennecFox-2-1.jpg'); opacity: 80%;">
             <div class="overlay">
                 <h2>Fennec <br> Fox</h2>
             </div>
@@ -16,7 +16,7 @@
                 <a href="">know more &#8594;</a>
             </div>
         </div>
-        <div class="gallery-item" data-country="South Africa" style="background-image: url('https://a-z-animals.com/media/humpback-whale-2.jpg'); opacity: 80%;">
+        <div class="gallery-item" data-country="South Africa" image-fullsize="https://a-z-animals.com/media/humpback-whale-2.jpg" style="background-image: url('https://a-z-animals.com/media/humpback-whale-2.jpg'); opacity: 80%;">
             <div class="overlay">
                 <h2>Humpback <br> Whale</h2>
             </div>
@@ -24,7 +24,7 @@
                 <a href="">know more &#8594;</a>
             </div>
         </div>
-        <div class="gallery-item" data-country="South Africa" style="background-image: url('https://www.awf.org/sites/default/files/styles/species_image/public/2020-04/SpeciesPage_AfricanWildDog02_Challenges.jpg?h=29c6c1f6&itok=ghf37r1B'); opacity: 80%;">
+        <div class="gallery-item" data-country="South Africa" image-fullsize="https://www.awf.org/sites/default/files/styles/species_image/public/2020-04/SpeciesPage_AfricanWildDog02_Challenges.jpg?h=29c6c1f6&itok=ghf37r1B" style="background-image: url('https://www.awf.org/sites/default/files/styles/species_image/public/2020-04/SpeciesPage_AfricanWildDog02_Challenges.jpg?h=29c6c1f6&itok=ghf37r1B'); opacity: 80%;">
             <div class="overlay">
                 <h2>Common Brown <br> Baboon</h2>
             </div>
@@ -32,7 +32,7 @@
                 <a href="">know more &#8594;</a>
             </div>
         </div>
-        <div class="gallery-item" data-country="Amazon" style="background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSJlbCwGOg-98xScNcnmEW_4wdkAolP2Qk9yA&s'); opacity: 80%;">
+        <div class="gallery-item" data-country="Amazon" image-fullsize="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSJlbCwGOg-98xScNcnmEW_4wdkAolP2Qk9yA&s" style="background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSJlbCwGOg-98xScNcnmEW_4wdkAolP2Qk9yA&s'); opacity: 80%;">
             <div class="overlay">
                 <h2>Spotted <br> Deer</h2>
             </div>
@@ -40,6 +40,11 @@
                 <a href="">know more &#8594;</a>
             </div>
         </div>
+    </div>
+    <div id="modal" class="modal">
+        <span class="close">&times;</span>
+        <img class="modal-content" id="fullsizeImage">
+        <div id="caption"></div>
     </div>
     <script src="script.js"></script>
 </body>
