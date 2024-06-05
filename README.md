@@ -8,20 +8,20 @@ design [Figma Design for Gallery web Application](https://www.figma.com/design/X
 # Gallery Web Application
 
 ## This  gallery has the following features:
-    1. **Hover Interaction**: When you hover on the image, it interactively displays 
+**Hover Interaction**: When you hover on the image, it interactively displays 
         the origin country from where the animal might be found.
-    2. **Full-Size Image Viewing**: If you click on the image, you can view it in full size.
-    3. **Responsive Design**: You can view this gallery on different screens as you like and
+**Full-Size Image Viewing**: If you click on the image, you can view it in full size.
+**Responsive Design**: You can view this gallery on different screens as you like and
         they all seem good and alike.
 
 ## Set up Instructions to run this app:
-    1. **Clone the repository**:
+1. **Clone the repository**:
         ```sh
         git clone https://github.com/Jeph2001/COA-TASKFORCE-CHALLENGE.git
         cd Gallery-Task
         ```
-    2. **Open the project in your preferred code editor**.
-    3. **Run the project**:
+2. **Open the project in your preferred code editor**.
+3. **Run the project**:
         - Open `index.html` in your web browser to view the gallery.
 
 ## File Structure:
@@ -56,13 +56,13 @@ design [Figma Design for Gallery web Application](https://www.figma.com/design/X
 
 
 ## Set up Instructions to run these apps:
-    1. **Clone the repository**:
+1. **Clone the repository**:
         ```sh
         git clone https://github.com/Jeph2001/COA-TASKFORCE-CHALLENGE.git
         cd Challenge
         ```
-    2. **Open the apps in your preferred code editor**.
-    3. **Run the apps**:
+2. **Open the apps in your preferred code editor**.
+3. **Run the apps**:
         - Run `arrayMap.js` in your console to test the array manipulation challenge.
         - Run `stringTransform.js` in your console to test the string transformation challenge.
 
