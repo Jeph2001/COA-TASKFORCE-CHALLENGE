@@ -6,11 +6,6 @@ document.addEventListener('DOMContentLoaded', () => {
     const closeModal = document.getElementsByClassName('close')[0];
 
     galleryItems.forEach(item => {
-        const country = item.getAttribute('data-country');
-        const overlay = item.querySelector('.overlay');
-        const countryElem = document.createElement('p');
-        countryElem.textContent = country;
-        overlay.appendChild(countryElem);
 
         item.addEventListener('click', () => {
             modal.style.display = "block";
