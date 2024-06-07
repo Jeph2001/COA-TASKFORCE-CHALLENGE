@@ -26,7 +26,7 @@ function findContiguousSubarray(arr, targetSum) {
 
   // Let's test this
 
-  const arr = [1, 2, 3, 4, 5, 6, 7];
+  const arr = [4, 2, 7, 1, 9, 5];
   const targetSum = 14;
   console.log(findContiguousSubarray(arr, targetSum)); // This will output true
 
