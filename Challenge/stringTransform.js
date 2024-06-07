@@ -18,7 +18,7 @@ function transformString(str) {
   }
   
   // Let's see how it works
-  const inputString = "HelloWorld";
+  const inputString = "joseph";
   const transformedString = transformString(inputString);
   console.log(transformedString); 
   

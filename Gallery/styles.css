@@ -93,6 +93,22 @@ body {
     }
 }
 
+@media (max-width: 767px) {
+    .gallery-item {
+        width: calc(25% - 20px); 
+        margin: 5px;
+    }
+
+    .gallery-item .overlay,
+    .gallery-item .button {
+        display: none;
+    }
+
+    .gallery-item:hover  {
+        filter: brightness(40%);
+     }
+}
+
 .modal {
     display: none;
     position: fixed;
