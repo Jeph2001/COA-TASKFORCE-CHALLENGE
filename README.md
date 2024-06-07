@@ -26,17 +26,11 @@ design [Figma Design for Gallery web Application](https://www.figma.com/design/X
 
 ## File Structure:
     COA-TASK-CHALLENGE
-        Gallery-Task
-            Gallery-01
+            Gallery
                 index.html
                 script.js
                 styles.css
-            Gallery-02
-                index.html
-                script.js
-                styles.css
-
-
+          
 
 # Coding Challenges Implementation
 
